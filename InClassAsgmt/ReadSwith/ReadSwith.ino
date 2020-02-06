@@ -1,5 +1,5 @@
-int led1 = D5;
-int buttonPin = D8;
+int led1 = LED_BUILTIN;
+int buttonPin = D2;
 int buttonState = 0;
 
 void setup() 
@@ -14,10 +14,10 @@ void loop()
   if (buttonState==HIGH) 
 
 {
-  digitalWrite(led1,HIGH);
+  digitalWrite(led1,LOW);
 }
   else 
 {
-  digitalWrite(led1,LOW);
+  digitalWrite(led1,HIGH);
 }
 }
