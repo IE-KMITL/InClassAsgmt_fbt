@@ -1,7 +1,7 @@
-#define AIN1 D10 //moter A 
-#define AIN2 D9 //moter A 
-#define BIN3 D6 //moter B 
-#define BIN4 D5 //moter B 
+#define AIN1 D10 //motor A 
+#define AIN2 D9 //motor A 
+#define BIN3 D6 //motor B 
+#define BIN4 D5 //motor B 
 
 #define lefts D2 //sensorซ้าย
 #define rights D11 //sensorขวา
